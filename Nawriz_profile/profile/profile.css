@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: orange;
+    width: 900px;
+    margin: 0 auto;
+    
+    padding: 0 2em 1em;
+}
+fieldset
+{
+    background-color: black;
+    border: none;
+}
+legend
+{
+    color: white;
+    font-weight: bold;
+   
+}
+h1 { 
+    font-size: 150%;
+    color: black;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 120%;
+    margin-bottom: .25em;
+    color: orange;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 8em;
+    color: white;
+    font-weight: bold;
+    margin: 1%;
+}
+input, select {
+    margin-left: 1em;
+    margin-right: 0.5em;
+   
+}
+.message {
+    color: red;
+    font-weight: 900;
+}
+#save, #clear, #back
+{
+    margin-top: 20px;
+    margin-left: 50px; 
+    margin-bottom: 20px;
+    color:black; 
+    background-color: orange; 
+    border: none; 
+    padding: .8%; 
+    border-radius: 10px;
+    width: 15%;
+    font-weight: bold;
+   
+}
+section
+{
+    background-color: black;
+  
+}
+
+span{
+    color: orange;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Account Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+	<main>
+		<h1>My Account Profile</h1>
+		<fieldset>
+			<h2>Personal Details:</h2><br>
+			<div>
+				<label for="email">E-Mail:</label>
+				<input type="text" name="email" id="email" placeholder="joe@yahoo.com">
+				<span class="message">*</span>
+			</div>
+			<div>
+				<label for="phone">Mobile phone:</label>
+				<input type="text" name="phone" id="phone" placeholder="NNN-NNN-NNNN">
+				<span class="message">*</span>
+			</div>
+			<div>
+				<label for="zip">ZIP Code:</label>
+				<input type="text" name="zip" id="zip" placeholder="NNNNN">
+				<span class="message">*</span>
+			</div>
+			<div>
+				<label for="dob">Date of Birth:</label>
+				<input type="text" name="dob" id="dob" placeholder="MM/DD/YYYY">
+				<span class="message">*</span>
+			</div>
+			<div>
+				<label></label>
+				<input type="button" id="clear" value="Clear">
+				<input type="button" id="save" value="Save">
+			</div>
+			>
+		</fieldset>
+		
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   	<script src="save_profile.js"></script>
+</body>
+</html>
